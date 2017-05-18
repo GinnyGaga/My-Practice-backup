@@ -1,0 +1,1393 @@
+<!doctype html>
+<html>
+
+
+  
+            
+      
+        
+    
+
+
+
+
+    
+  <head>
+  <meta charset="GBK" />
+  <title>助学贷款还款</title>
+  <meta name="keywords" content="中国最大的第三方电子支付服务提供商" />
+  <meta name="description" content="网上购物-网上支付-安全支付-安全购物-购物，安全-支付-支付宝，在线-付款，收款-网上，贸易-网上贸易" />
+  
+
+<link rel="icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://i.alipayobjects.com/common/favicon/favicon.ico" type="image/x-icon" />  
+    <link href="https://a.alipayobjects.com" rel="dns-prefetch" />
+<link href="https://app.alipay.com" rel="dns-prefetch" />
+<link href="https://my.alipay.com" rel="dns-prefetch" />
+<link href="https://lab.alipay.com" rel="dns-prefetch" />
+<link href="https://cashier.alipay.com" rel="dns-prefetch" />
+<link href="https://financeprod.alipay.com" rel="dns-prefetch" />
+<link href="https://shenghuo.alipay.com" rel="dns-prefetch" />
+
+
+<!-- uitpl:/component/trackerTime.vm -->
+    <!-- CMS:全站公共 cms/tracker/iconfont.vm开始:tracker/iconfont.vm --><style>
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20150616"); /* IE9 */
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20150616#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://i.alipayobjects.com/common/fonts/rei.woff?20150616") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20150616")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.svg?20150616#rei") format("svg"); /* iOS 4.1- */
+}
+.iconfont {
+    font-family:"rei";
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+</style>
+<!-- CMS:全站公共 cms/tracker/iconfont.vm结束:tracker/iconfont.vm -->
+<script type="text/javascript">
+  window._to = { start: new Date() };
+</script>
+
+<!-- CMS:全站公共 cms/tracker/monitor.vm开始:tracker/monitor.vm --><!-- FD:106:alipay/tracker/sai_seer.vm:START --><script type="text/javascript">
+
+!function(n){function o(r){if(t[r])return t[r].exports;var i=t[r]={exports:{},id:r,loaded:!1};return n[r].call(i.exports,i,i.exports,o),i.loaded=!0,i.exports}var t={};return o.m=n,o.c=t,o.p="",o(0)}([function(n,o){"use strict";window.Sai={log:function(){},error:function(){},lost:function(){},off:function(){},on:function(){},_DATAS:[],_EVENTS:[]}}]);
+
+</script>
+<!-- FD:106:alipay/tracker/sai_seer.vm:END --><!-- CMS:全站公共 cms/tracker/monitor.vm结束:tracker/monitor.vm -->
+<!-- CMS:全站公共 cms/tracker/seajs.vm开始:tracker/seajs.vm -->	
+
+<!-- monitor 防错代码 -->
+<script>
+(function(win){
+  if(!win.monitor){win.monitor = {};}
+
+  var METHODS = ["lost", "log", "error", "on", "off"];
+
+  for(var i=0,method,l=METHODS.length; i<l; i++){
+    method = METHODS[i];
+    if("function" !== typeof win.monitor[method]){
+      win.monitor[method] = function(){};
+    }
+  }
+})(window);
+</script>
+
+<!-- seajs以及插件 -->
+<script charset="utf-8" crossorigin="anonymous" id="seajsnode" onerror="window.monitor && monitor.lost && monitor.lost(this.src)" src="https://a.alipayobjects.com:443/??seajs/seajs/2.2.3/sea.js,seajs/seajs-combo/1.0.0/seajs-combo.js,seajs/seajs-style/1.0.2/seajs-style.js,seajs/seajs-log/1.0.0/seajs-log.js,jquery/jquery/1.7.2/jquery.js,gallery/json/1.0.3/json.js,alipay-request/3.0.3/index.js"></script>
+
+<!-- seajs config 配置 -->
+<script>
+seajs.config({
+  alias: {
+    '$': 'jquery/jquery/1.7.2/jquery',
+    '$-debug': 'jquery/jquery/1.7.2/jquery',
+    'jquery': 'jquery/jquery/1.7.2/jquery',
+    'jquery-debug': 'jquery/jquery/1.7.2/jquery-debug',
+    'seajs-debug': 'seajs/seajs-debug/1.1.1/seajs-debug'
+  },
+  crossorigin: function(uri){
+  
+    function typeOf(type){
+	  return function(object){
+	    return Object.prototype.toString.call(object) === '[object ' + type + ']';
+	  }
+	}
+	var isString = typeOf("String");
+	var isRegExp = typeOf("RegExp");
+    
+	var whitelist = [];
+	
+                  whitelist.push('https://a.alipayobjects.com/');
+          	
+	for (var i=0, rule, l=whitelist.length; i<l; i++){
+	  rule = whitelist[i];
+	  if (
+	    (isString(rule) && uri.indexOf(rule) === 0) ||
+	    (isRegExp(rule) && rule.test(uri))
+		) {
+		
+	    return "anonymous";
+	  }
+	}
+  },
+  vars: {
+    locale: 'zh-cn'
+  }
+});
+</script>
+
+<!-- 兼容原有的 plugin-i18n 写法 -->
+<!-- https://github.com/seajs/seajs/blob/1.3.1/src/plugins/plugin-i18n.js -->
+<script>
+seajs.pluginSDK = seajs.pluginSDK || {
+  Module: {
+    _resolve: function() {}
+  },
+  config: {
+    locale: ''
+  }
+};
+// 干掉载入 plugin-i18n.js，避免 404
+seajs.config({
+  map: [
+	[/^.*\/seajs\/plugin-i18n\.js$/, ''],
+	[/^.*\i18n!lang\.js$/, '']
+  ] 
+});
+</script>
+
+<!-- 路由旧 ID，解决 seajs.use('select/x.x.x/select') 的历史遗留问题 -->
+<script>
+(function(){
+
+var JQ = '/jquery/1.7.2/jquery.js';
+seajs.cache['https://a.alipayobjects.com:443/gallery' + JQ] = seajs.cache['https://a.alipayobjects.com:443/jquery' + JQ];
+
+var GALLERY_MODULES = [
+  'async','backbone','coffee','cookie','es5-safe','handlebars','iscroll',
+  'jasmine','jasmine-jquery','jquery','jquery-color','json','keymaster',
+  'labjs','less','marked','moment','mustache','querystring','raphael',
+  'socketio','store','swfobject','underscore','zepto','ztree'
+];
+
+var ARALE_MODULES = [
+  'autocomplete','base','calendar','class','cookie','dialog','easing',
+  'events','iframe-uploader','iframe-shim','messenger','overlay','popup',
+  'position','select','switchable','tip','validator','widget'
+];
+
+var util = {};
+util.indexOf = Array.prototype.indexOf ?
+  function(arr, item) {
+    return arr.indexOf(item);
+  } :
+  function(arr, item) {
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] === item) {
+        return i;
+      }
+    }
+    return -1;
+  };
+util.map = Array.prototype.map ?
+  function(arr, fn) {
+    return arr.map(fn);
+  } :
+  function(arr, fn) {
+    var ret = [];
+	for (var i = 0; i < arr.length; i++) {
+        ret.push(fn(arr[i], i, arr));
+    }
+    return ret;
+  };
+
+function contains(arr, item) {
+  return util.indexOf(arr, item) > -1
+}
+
+function map(id) {
+  id = id.replace('#', '');
+
+  var parts = id.split('/');
+  var len = parts.length;
+  var root, name;
+
+  // id = root/name/x.y.z/name
+  if (len === 4) {
+    root = parts[0];
+    name = parts[1];
+
+    // gallery 或 alipay 开头的没有问题
+    if (root === 'alipay' || root === 'gallery') {
+      return id;
+    }
+
+    // arale 开头的
+    if (root === 'arale') {
+      // 处理 arale/handlebars 的情况
+      if (contains(GALLERY_MODULES, name)) {
+        return id.replace('arale/', 'gallery/');
+      } else {
+        return id;
+      }
+    }
+  }
+  // id = name/x.y.z/name
+  else if (len === 3) {
+    name = parts[0]
+
+    // 开头在 GALLERY_MODULES 或 ARALE_MODULES
+    if (contains(GALLERY_MODULES, name)) {
+      return 'gallery/' + id;
+    } else if (contains(ARALE_MODULES, name)) {
+      return 'arale/' + id;
+    }
+  }
+
+  return id;
+}
+
+var _use = seajs.use;
+
+seajs.use = function(ids, callback) {
+  if (typeof ids === 'string') {
+    ids = [ids];
+  }
+
+  ids = util.map(ids, function(id) {
+    return map(id);
+  });
+
+  return _use(ids, callback);
+}
+
+})();
+</script><!-- CMS:全站公共 cms/tracker/seajs.vm结束:tracker/seajs.vm -->
+<!-- FD:106:alipay/tracker/tracker_time.vm:START --><!-- FD:106:alipay/tracker/tracker_time.vm:784:tracker_time.schema:全站 tracker 开关:START --><script charset="utf-8" crossorigin="crossorigin" src="https://a.alipayobjects.com/static/ar/alipay.light.base-1.8.js"></script>
+
+
+<script type="text/javascript">
+if (!window._to) {
+  window._to = { start: new Date() };
+}
+</script>
+
+<script charset="utf-8" src="https://as.alipayobjects.com/??g/component/tracker/2.3.2/index.js,component/smartracker/2.0.1/index.js"></script>
+
+
+
+<script>
+  window.Tracker && Tracker.start && Tracker.start();
+</script>
+
+
+
+
+
+
+
+<!-- FD:106:alipay/tracker/tracker_time.vm:784:tracker_time.schema:全站 tracker 开关:END -->
+<!-- FD:106:alipay/tracker/tracker_time.vm:END -->
+              <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com:443/al/alice.style.apps-1.1.css" />
+        
+      <link charset="utf-8" rel="stylesheet" href="https://a.alipayobjects.com:443/batchpayprod/batchpayprod.studentloan-1.0-src.css" media="all" />
+
+  
+      <style>
+.payment-info-user {
+    margin-bottom: 0;
+}
+.payment-info-user li {
+    padding-left: 120px;
+    min-height:21px;
+    height:auto !important;
+    height:21px;
+}
+.payment-info-user li label {
+    float: left;
+    width: 120px;
+    margin-left: -120px;
+    text-align: right;
+}
+.fc-red {
+    color: #c75932;
+    font-weight: bold;
+}
+.fc-black {
+    color: #4D4D4D;
+    font-weight: normal;
+}
+.p-trade-list {
+    margin-top: 0;
+}
+</style>
+    
+          <script>
+      araleConfig = {
+        combo_host: 'https://a.alipayobjects.com:443',
+        combo_path: '/ar/??'
+      }
+    </script>
+    <script type="text/javascript" charset="utf-8" src="https://a.alipayobjects.com:443/ar/arale.core-1.1.js"></script>
+      
+  <script type="text/javascript">
+  //解决跨域
+  document.domain = document.domain.split(".").slice(-2).join(".");
+  
+  AralePreload = [];
+  var AP = AP || {};
+  AP.PageVar = {
+    app_domain: "https://batch.alipay.com:443",
+    appstore_domain: "https://app.alipay.com",
+    personal_domain:"https://lab.alipay.com",
+    personalprod_domain:"",
+    pay_domain:"https://www.alipay.com",
+    mipgw_domain: "",
+    ccrprod_domain: "",
+    authcenter_domain:"https://auth.alipay.com",
+    tfs_domain:"",
+    apimg_domain:"https://i.alipayobjects.com:443"
+  }
+  </script>
+  <style>
+  #container {padding-top: 1px;}
+  </style>
+  </head>
+<!--[if lt IE 7]><body class="ie6 "><![endif]-->
+<!--[if IE 7]><body class="ie7 "><![endif]-->
+<!--[if IE 8]><body class="ie8 "><![endif]-->
+<!--[if IE 9]><body class="ie9 "><![endif]-->
+<!--[if !IE]><!--><body class=""><!--<![endif]-->
+
+<!-- uninav -->
+
+
+
+
+
+
+
+
+<!-- CMS:全站公共 cms/nav/navSwitch.vm开始:alipay/nav/navSwitch.vm -->
+<script>
+MSGSWITCH = true;
+</script>
+
+<script>
+MERCHANT_SWITCH = 'true';
+</script>
+
+<!-- CMS:全站公共 cms/全站导航/网站改版新旧版切换开始:alipay/nav/versionSwitch.vm -->
+
+
+
+
+
+
+<!-- CMS:全站公共 cms/全站导航/网站改版新旧版切换结束:alipay/nav/versionSwitch.vm --><!-- CMS:全站公共 cms/nav/navSwitch.vm结束:alipay/nav/navSwitch.vm --><!-- abtestEnabled: false -->
+
+<!-- CMS:全站公共 cms/nav/uribroker.vm开始:alipay/nav/uribroker.vm -->    <script type="text/javascript">
+  window.GLOBAL || (GLOBAL = {});
+  GLOBAL.system = {};
+   GLOBAL.system["assetsServer"] = "https://a.alipayobjects.com"; GLOBAL.system["apimgServer"] = "https://i.alipayobjects.com"; GLOBAL.system["personalportalServer"] = "https://my.alipay.com"; GLOBAL.system["personalServer"] = "https://lab.alipay.com"; GLOBAL.system["personalprodServer"] = "https://shenghuo.alipay.com"; GLOBAL.system["memberprodServer"] = "https://memberprod.alipay.com"; GLOBAL.system["tfsImageServer"] = "https://tfs.alipayobjects.com"; GLOBAL.system["merchantwebServer"] = "https://shanghu.alipay.com"; GLOBAL.system["authCenterServer"] = "https://auth.alipay.com"; GLOBAL.system["securityServer"] = "https://securitycenter.alipay.com"; GLOBAL.system["tradecmtServer"] = "https://pingjia.alipay.com"; GLOBAL.system["appstoreServer"] = "https://app.alipay.com"; GLOBAL.system["zhangdanServer"] = "https://zd.alipay.com"; GLOBAL.system["uninavServer"] = "https://uninav.alipay.com"; GLOBAL.system["pucprodServer"] = "https://jiaofei.alipay.com"; GLOBAL.system["benefitprodServer"] = "https://zht.alipay.com"; GLOBAL.system["enterpriseportalServer"] = "https://enterpriseportal.alipay.com"; GLOBAL.system["couriercoreServer"] = "https://couriercore.alipay.com"; GLOBAL.system["uemprodServer"] = "https://uemprod.alipay.com"; GLOBAL.system["bizfundprodServer"] = "https://bizfundprod.alipay.com"; GLOBAL.system["morderprodServer"] = "https://b.alipay.com"; GLOBAL.system["consumeprodServer"] = "https://consumeprod.alipay.com"; GLOBAL.system["emembercenterServer"] = "https://emembercenter.alipay.com"; GLOBAL.system["crmhomeServer"] = "https://e.alipay.com"; GLOBAL.system["cshallServer"] = "https://cshall.alipay.com"; GLOBAL.system["openhomeServer"] = "https://openhome.alipay.com"; GLOBAL.system["yebprodServer"] = "https://yebprod.alipay.com"; GLOBAL.system["financeprodServer"] = "https://financeprod.alipay.com"; GLOBAL.system["goldetfprodServer"] = "https://goldetfprod.alipay.com"; GLOBAL.system["certifyServer"] = "https://certify.alipay.com"; GLOBAL.system["securitycenterServer"] = "https://securitycenter.alipay.com"; GLOBAL.system["couponwebServer"] = "https://hongbao.alipay.com"; GLOBAL.system["pointprodServer"] = "https://jf.alipay.com"; GLOBAL.system["pcreditprodServer"] = "https://huabei.alipay.com"; GLOBAL.system["cardServer"] = "https://card.alipay.com"; GLOBAL.system["membercenterServer"] = "https://accounts.alipay.com"; GLOBAL.system["custwebServer"] = "https://custweb.alipay.com"; GLOBAL.system["zcbprodServer"] = "https://zcbprod.alipay.com";  </script>
+    <!-- CMS:全站公共 cms/nav/uribroker.vm结束:alipay/nav/uribroker.vm -->
+
+
+
+
+
+<div id="J-global-notice-container" class="global-notice-container" style="position: relative; z-index: 999; background: #ff6600;">
+
+<!-- CMS:全站公共 cms/nav/global_ad.vm开始:alipay/nav/global_ad.vm --><!-- CMS:全站公共 cms/nav/global_ad.vm结束:alipay/nav/global_ad.vm -->
+<!-- CMS:全站公共 cms/notice/headNotice.vm开始:alipay/notice/headNotice.vm --><!--[if lte IE 7]>
+<style>.kie-bar { display: none; height: 24px; line-height: 1.8; font-weight:normal; text-align: center; border:1px solid #fce4b5; background-color:#FFFF9B; color:#e27839; position: relative; font-size: 12px; margin: 5px 0 0 0; padding: 5px 0 2px 0; } .kie-bar a { text-decoration: none; color:#08c; background-repeat: none; } .kie-bar a#kie-setup-IE8,.kie-bar a#kie-setup-taoBrowser { padding: 0 0 2px 20px; *+padding-top: 2px; *_padding-top: 2px; background-repeat: no-repeat; background-position: 0 0; } .kie-bar a:hover { text-decoration: underline; } .kie-bar a#kie-setup-taoBrowser { background-position: 0 -20px; }</style>
+<div id="kie-bar" class="kie-bar">您现在使用的浏览器版本过低，可能会导致部分图片和信息的缺失。请立即 <a href="http://www.microsoft.com/china/windows/IE/upgrade/index.aspx" id="kie-setup-IE8" seed="kie-setup-IE8" target="_blank" title="免费升级至IE8浏览器">免费升级</a> 或下载使用 <a href="http://download.browser.taobao.com/client/browser/down.php?pid=0080_2062" id="kie-setup-taoBrowser" seed="kie-setup-taoBrowser" target="_blank" title="淘宝浏览器">淘宝浏览器</a> ，安全更放心！ <a title="查看帮助" target="_blank" seed="kie-setup-help" href="https://help.alipay.com/lab/help_detail.htm?help_id=260579">查看帮助</a></div>
+<script type="text/javascript">
+(function () {
+    function IEMode() {
+        var ua = navigator.userAgent.toLowerCase();
+        var re_trident = /\btrident\/([0-9.]+)/;
+        var re_msie = /\b(?:msie |ie |trident\/[0-9].*rv[ :])([0-9.]+)/;
+        var version;
+        if (!re_msie.test(ua)) {
+            return false;
+        }
+        var m = re_trident.exec(ua);
+        if (m) {
+            version = m[1].split(".");
+            version[0] = parseInt(version[0], 10) + 4;
+            version = version.join(".");
+        } else {
+            m = re_msie.exec(ua);
+            version = m[1];
+        }
+        return parseFloat(version);
+    }
+    var ie = IEMode();
+    if (ie && ie < 8 && (self.location.href.indexOf("_xbox=true") < 0)) {
+        document.getElementById('kie-bar').style.display = 'block';
+        document.getElementById('kie-setup-IE8').style.backgroundImage = 'url(https://i.alipayobjects.com/e/201307/jYwARebNl.png)';
+        document.getElementById('kie-setup-taoBrowser').style.backgroundImage = 'url(https://i.alipayobjects.com/e/201307/jYwARebNl.png)';
+    }
+})();
+</script>
+<![endif]-->
+
+<!-- CMS:全站公共 cms/notice/headNotice.vm结束:alipay/notice/headNotice.vm --></div>
+
+
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" href="https://a.alipayobjects.com:443/alipay-nav/1.3.12/src/nav-global.css">
+<div id="globalContainer" class="global-reset global-container global-type-global"></div>
+<script src="https://a.alipayobjects.com:443/alipay-nav/1.3.12/src/nav-global.js" charset="utf-8"></script>
+<script type="text/javascript">
+document.domain=document.domain.split(".").slice(-2).join("."),seajs.use(["alipay-nav/1.3.12/src/nav-global","$"],function(a,b){window.navInit(b.extend({menu:"",appKey:"10080",catKey:"",title:"助学贷款还款",userName:"磨金妮",email:"2269937513@qq.com",mobile:"187****0674",logonIdType:"EMAIL",userId:"2088012817408300",portraitPath:"/images/partner/T1ualyXn8bXXXXXXXX",container:"#globalContainer",timestamp:(new Date).getTime(),pageAbsUrl:"http://batch.alipay.com/loan/repaymentchannel/studentloan/cdbrepayinfo.htm",isLogin:true,msgSwitch:window.MSGSWITCH,msgHide:1,needLoadMsg:"Y",showTaobaoLogin:false,showAlibabaLogin:false,showMerchant:false,showPersonal:false,abtestEnabled:false,abtest:"",abtestType:"GLOBAL_P",merchantSwitch:window.MERCHANT_SWITCH},GLOBAL.system))});
+
+
+</script>
+
+<div id="container" class="ui-container">  
+  <div class="ui-content fn-clear">
+        <div class="ui-grid-5" coor="side">
+    
+
+
+ 
+																																																	
+
+
+	
+
+
+
+															
+
+
+
+
+
+<link media="all" href="https://a.alipayobjects.com/alipay/appaside/1.2.1/appaside.css" rel="stylesheet" charset="utf-8">
+
+<!-- 修复问题如图 https://i.alipayobjects.com/e/201306/XdKhvDQm5.png -->
+<style>
+#J_app_sider {
+    *position: relative;
+    *z-index: 11;
+}
+#J_myapp {
+    *overflow: visible;
+}
+/* 修复问题如图 https://i.alipayobjects.com/e/201306/bHQRzYFHb.png */
+#J_myapp.ui-box-nocontainer {
+    *overflow: hidden;
+}
+</style>
+
+<script charset="utf-8" type="text/javascript">
+(function(){
+	var oldDomain=document.domain;
+	var num=oldDomain.indexOf('alipay');
+	var newDomain=oldDomain.substring(num,oldDomain.length);
+	document.domain=newDomain;
+})();
+</script>
+<!--是否登录：true -->
+<script type="text/javascript">
+var _app_data_ = {
+	myAppList : [{
+										appId : '1000000017',
+					appName : '转账到支付宝',
+					appKey : '10017',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000015',
+					appName : '信用卡还款',
+					appKey : '10015',
+					isNewApp : false,
+					isHotApp : true,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000053',
+					appName : '转账到银行卡',
+					appKey : '10053',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000016',
+					appName : '水电煤缴费',
+					appKey : '10016',
+					isNewApp : false,
+					isHotApp : true,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000020',
+					appName : '手机充值',
+					appKey : '10020',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000024',
+					appName : '爱心捐赠',
+					appKey : '10024',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000117',
+					appName : '话费卡充值',
+					appKey : '10110',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000113',
+					appName : '医院挂号',
+					appKey : '10108',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000106',
+					appName : '助学贷款还款',
+					appKey : '10080',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+						}],
+	otherAppList : [{
+								appId : '1000000120',
+					appName : '校园一卡通',
+					appKey : '10113',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000108',
+					appName : '有线电视缴费',
+					appKey : '10075',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000056',
+					appName : '固话宽带',
+					appKey : '10056',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000249',
+					appName : '买汽车票',
+					appKey : '10118',
+					isNewApp : true,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000118',
+					appName : '教育缴费',
+					appKey : '10109',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000048',
+					appName : '加油卡充值',
+					appKey : '10048',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000030',
+					appName : '买彩票',
+					appKey : '10030',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000018',
+					appName : '我要收款',
+					appKey : '10018',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000029',
+					appName : '游戏充值',
+					appKey : '10029',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000028',
+					appName : '订酒店',
+					appKey : '10028',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000049',
+					appName : '淘宝电影',
+					appKey : '10049',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000107',
+					appName : '淘宝网',
+					appKey : '10076',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000000115',
+					appName : '淘宝贷款',
+					appKey : '10111',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000001171',
+					appName : '网商贷',
+					appKey : '201601191629',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000563',
+					appName : '上银汇款',
+					appKey : '2014092600001010',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000401',
+					appName : '网购还款',
+					appKey : '10120',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : false
+				},
+				{
+								appId : '1000001044',
+					appName : '红包',
+					appKey : '11001',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+								appId : '1000000119',
+					appName : '阿里贷款',
+					appKey : '10112',
+					isNewApp : false,
+					isHotApp : false,
+					isAlipayApp : true
+				},
+				{
+					}]
+	};
+_app_data_.myAppList.length--;
+_app_data_.otherAppList.length--;
+</script>
+<div id="J_app_sider">
+												<div class="ui-box module-myapp ui-box-nocontainer appcenter-list" id="J_myapp">
+				<div class="ui-box-title" title="亲~点击可以收放应用列表">
+					<div class="ui-box-title-border sl-linear">
+						<h3>我的应用（<span id="J_module_myapp_count">9</span>）</h3>
+						<a id="myappSetting" title="管理我的应用" href="#" class="ui-box-title-setting" seed="myapp-setting">设定</a>
+					</div>
+				</div>
+				<div class="ui-box-container">
+					<div id="J_myapp_sliders" class="fn-clear">
+						 																						<ul class="myapp-slider current">
+																													<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000017"  seed="myapp-item-1000000017">
+												<span class="myapp-icon" data-id="10017">转账到支付宝</span>
+												<span class="myapp-item-name">转账到支付宝</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000015"  seed="myapp-item-1000000015">
+												<span class="myapp-icon" data-id="10015">信用卡还款</span>
+												<span class="myapp-item-name">信用卡还款</span>
+																								<span title="热门应用" class="my-app-item-hot">热门应用</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000053"  seed="myapp-item-1000000053">
+												<span class="myapp-icon" data-id="10053">转账到银行卡</span>
+												<span class="myapp-item-name">转账到银行卡</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000016"  seed="myapp-item-1000000016">
+												<span class="myapp-icon" data-id="10016">水电煤缴费</span>
+												<span class="myapp-item-name">水电煤缴费</span>
+																								<span title="热门应用" class="my-app-item-hot">热门应用</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000020"  seed="myapp-item-1000000020">
+												<span class="myapp-icon" data-id="10020">手机充值</span>
+												<span class="myapp-item-name">手机充值</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000024" target="_blank" seed="myapp-item-1000000024">
+												<span class="myapp-icon" data-id="10024">爱心捐赠</span>
+												<span class="myapp-item-name">爱心捐赠</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000117"  seed="myapp-item-1000000117">
+												<span class="myapp-icon" data-id="10110">话费卡充值</span>
+												<span class="myapp-item-name">话费卡充值</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000113"  seed="myapp-item-1000000113">
+												<span class="myapp-icon" data-id="10108">医院挂号</span>
+												<span class="myapp-item-name">医院挂号</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																																							<li class="myapp-item  fn-clear ">
+											<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000106"  seed="myapp-item-1000000106">
+												<span class="myapp-icon" data-id="10080">助学贷款还款</span>
+												<span class="myapp-item-name">助学贷款还款</span>
+																								                                                <i class="app-arrow iconfont ui-arrow-right" style="display:none;">&#x00E5;</i>
+											</a>
+										</li>
+																											</ul>
+													 					</div>
+				</div>
+			</div><!-- .module-app -->
+																										<div class="ui-box ui-box-follow  appcenter-list">
+					<div class="ui-box-title fn-clear" title="亲~点击可以收放应用列表">
+						<div class="ui-box-title-border fn-clear sl-linear">
+							<h3>公益教育（4）</h3>
+						</div>
+					</div>
+					<div class="ui-box-container">
+						<ul>
+																												<li class="myapp-item  fn-clear">
+								<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000120" class="normal"  seed="myapp-item-1000000120">
+									<span class="myapp-icon" data-id="10113">校园一卡通</span>
+									<span class="myapp-item-name">校园一卡通</span>
+																										</a>
+								 																		<a href="#" class="add" appId="1000000120" appName="校园一卡通" appKey="10113" isNewApp="false" isHotApp="false" pageOpenType="1" seed="myapp-add-1000000120">+添加</a>
+																								</li>
+														<li class="myapp-item  fn-clear">
+								<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000118" class="normal"  seed="myapp-item-1000000118">
+									<span class="myapp-icon" data-id="10109">教育缴费</span>
+									<span class="myapp-item-name">教育缴费</span>
+																										</a>
+								 																		<a href="#" class="add" appId="1000000118" appName="教育缴费" appKey="10109" isNewApp="false" isHotApp="false" pageOpenType="1" seed="myapp-add-1000000118">+添加</a>
+																								</li>
+														<li class="myapp-item  fn-clear">
+								<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000024" class="normal" target="_blank" seed="myapp-item-1000000024">
+									<span class="myapp-icon" data-id="10024">爱心捐赠</span>
+									<span class="myapp-item-name">爱心捐赠</span>
+																										</a>
+								 																		<span class="add">已添加</span>
+																								</li>
+														<li class="myapp-item myapp-item-selected fn-clear">
+								<a href="http://app.alipay.com:80/appGateway.htm?appId=1000000106" class="normal"  seed="myapp-item-1000000106">
+									<span class="myapp-icon" data-id="10080">助学贷款还款</span>
+									<span class="myapp-item-name">助学贷款还款</span>
+																										</a>
+								 																		<span class="add">已添加</span>
+																								</li>
+													</ul>
+					</div>
+				</div>
+									 					<div class="ui-box ui-box-follow ui-box-nocontainer appcenter-list more-app">
+			<a href="http://app.alipay.com:80/container/web/index.htm" seed="myapp-more" />
+				<span class="ui-box-title fn-clear">
+					<span class="ui-box-title-border fn-clear sl-linear">
+						<h3>更多应用 <i class="iconfont" title="单箭头右">&#x00E5;</i></h3>
+					</span>
+				</span>
+			</a>
+		</div>
+	</div><!-- #J_app_sider -->
+<script>
+if (window.seajs) {
+    seajs.use('alipay/appaside/1.2.1/appaside');
+}
+</script>
+
+
+    </div>      
+          
+    <div class=" ui-grid-20  ui-grid-right" coor="default-content">
+      <div class="content ">
+        
+
+<div class="page-head">
+    <div class="title">
+        <h2>助学贷款还款</h2>
+        <div class="links">
+            <span class="link-record"><a target="_blank" href="https://lab.alipay.com/consume/record/index.htm?protocol=119">查看记录</a></span>
+        </div>
+    </div>
+</div>
+<!-- 主栏 -->
+<div class="main">
+	<div class="step">
+        <ol>
+            <li>
+                <em>1.</em>贷款查询
+            </li>
+            <li  class="current">
+                <em>2.</em>确认还款
+            </li>
+            <li>
+                <em>3.</em>付款
+            </li>
+            <li>
+                <em>4.</em>还款成功
+            </li>
+        </ol>
+    </div>
+	<form class="ui-form" id="paymentForm" method="post" action="https://sap.cdb.com.cn/AlipayService.do?sign=S0vQEanFmWICWSkrfntAYGTCQ2JqtHpE1l6VyLoaXk0sg4J0NENbh2rZKRtuPLQEpmJKUSYs87ce%2BSTVYgJfmtJmuOBDH6J5Xn6KqIpXc%2FsyluJ6GdryZEYmO0UwpT%2FKKgd7CedypTXDGSVuopY9R7fO4DC7hVcXhjX%2Fv2MMT6k%3D&amp;biz_type=A&amp;id_code=452127199207040942&amp;sign_type=RSA&amp;apply_amount=1517.15&amp;service=alipay_student_repay_apply&amp;account_code=452127a01g9.cdb%40sina.cn&amp;charset=gbk&amp;partner=2088301798425072">
+	    	<input type="hidden" name="_form_token" value="654f5adfd7ceb478fb02c0cc05dc4e2187eff5c50b5a49638f4f9428bfd29a2aGZ00"/>
+	          <input type="hidden" name="userId" value="2088702083026460"/>
+    	          <input type="hidden" name="email" value="452127a01g9.cdb@sina.cn"/>
+    	          <input type="hidden" name="certNo" value="452127199207040942"/>
+        <fieldset>
+    	<div class="payment-info">
+    		<h3 class="payment-info-title">确认还款信息</h3>
+    		<ul class="payment-info-user">
+                <li><label>借款人姓名: </label><span>磨金妮</span></li>
+                <li><label>借款人支付宝账户: </label><span>452127a01g9.cdb@sina.cn</span></li>
+                <li><label>借款人身份证号: </label><span>45212***********42</span></li>
+    			<li><label>所属分行: </label><span>广西壮族自治区分行</span></li>
+    			<li><label>机构名称: </label><span>南宁市马山县学生资助管理办公室</span></li>
+    		</ul>
+            <div class="p-trade-list">
+    		<table class="payment-loan-list">
+                <thead>
+    			<tr>
+                    <th class="loan-code">合同号</th>
+                    <th>贷款年份</th>
+    				<th class="loan-money">应还本金(元)</th>
+    				<th class="loan-money">应还利息(元)</th>
+    				<th class="loan-money">应还金额(元)</th>
+    			</tr>
+                </thead>
+
+				                    <tbody>
+					          <input type="hidden" name="orderpayparam" value=""/>
+    					            			<tr class=" ">
+                            <td class="loan-code">45012401H20130001440</td>
+                            <td>2013</td>
+            				<td class="loan-money">1500.00</td>
+            				<td class="loan-money">17.15</td>
+            				<td class="loan-money">1517.15</td>
+            			</tr>
+					                    </tbody>
+    			<tr>
+    				<td>还款截止日期：<span class="fc-red">2017.3.20</span> </td>
+    				<td colspan="4" class="loan-total">1517.15<span class="fc-black">元</span> </td>
+    			</tr>
+				    		</table>
+    	    </div>
+    	</div>
+
+<div class="tips-info">
+        <div class="ui-tiptext-container ui-tiptext-container-warning">
+            <div class="ui-tiptext-content">
+                <p class="ui-tiptext ui-tiptext-warning"><span class="ui-tiptext-icon"></span>请仔细核对以上信息，更多详情请登录国家开发银行学生在线服务系统<a href="http://www.csls.cdb.com.cn" target="_blank">查询</a></p>
+            </div>
+        </div>
+</div>
+
+
+	
+<div class="ui-form-item button-center  " id="J_checkAgreeItem">
+    <input type="checkbox" checked="checked" name="approveAgreement" id="loanAgree" value="1" /> <label>我已阅读并同意 <a href="#" target="_blank" id="J_showLicense">《支付宝还款协议》</a></label>
+    <div class="ui-form-explain"></div>
+</div>
+
+
+<div class="fn-hide" id="J_licenseDiv">
+    <!-- 表单许可声明 -->
+    <div class="ui-license-info">
+        <h3 class="ui-license-title">支付宝还款协议：</h3>
+        
+         <!-- CMS:还款协议开始:batchpayprod/studentloan/loanxieyi.vm --><div class="ui-license">
+  
+  <h2>“助学贷款还款”服务协议</h2>
+    <h3>第一条 总则</h3>
+  <p>
+    本服务协议（以下简称“本协议”）是支付宝（中国）网络技术有限公司（以下简称“支付宝”）与支付宝用户(以下简称“用户”或“您”)就“助学贷款还款”服务的使用等相关事项所订立的有效合约。用户通过网络页面点击确认或以其他方式选择接受本协议，即表示用户与支付宝已达成协议并同意接受本协议的全部约定内容。 
+  </p>
+  <p>
+    在接受本协议之前，请您仔细阅读本协议的全部内容。如果您不同意本协议的任意内容，或者无法准确理解支付宝对条款的解释，请不要进行后续操作。
+  </p>
+  <ul class="ft-bold">
+    <li>
+       （一）助学贷款还款服务：指您登陆自己的支付宝账户，输入借款人的支付宝账户、借款人的身份信息等，查询借款人向国家开发银行申请的助学贷款当期应还贷款金额，并在当期最后还款日之前进行贷款偿还的支付宝服务。
+    </li>
+     <li>
+       （二）借款人：本协议中所称的“借款人”包括您本人和向国家开发银行申请了助学贷款的其他人。
+     </li>
+  </ul>
+
+  <h3>第二条  用户的权利义务</h3>
+  <ul>
+    <li>
+      （一）您确认在使用本服务的意思表示出自您的真实意愿；同时您对使用本服务过程中发出的指令的真实性及有效性承担全部责任，该指令视为您的真实意思表示且不可变更或撤销。
+      <span class="ft-bold ft-underline">您承诺，支付宝依照您的指令进行操作的一切风险均由您承担。</span>
+    </li>
+    <li>
+      （二）您同意承诺不会利用本服务从事任何非法的或违反本协议目的或者侵犯其他第三方权益的行为，否则支付宝有权立即单方面终止提供本服务，并不承担任何责任；如果因您的行为给支付宝造成损失的，您应承担全部赔偿责任。
+    </li>
+    <li >
+      （三）<span class="ft-bold ft-underline">您授权支付宝在您使用本服务期间或支付宝终止提供本服务后，有权保留您在使用本服务期间所形成的相关信息数据，同时该授权不可撤销。</span>
+    </li>
+    <li class="ft-bold">（四）您同意您在为您本人或他人偿还助学贷款时，务必登陆您自己的支付宝账户，并且输入借款人真实的支付宝账户和真实身份证号码才能查询当期应还贷款，在确认还款金额之后才能进行还款操作。                                </li>
+    <li class="ft-bold ">若借款人并非您本人的，您已经取得了借款人的授权，并通过合法渠道取得借款人的支付宝账户及身份证号码，该授权内容包括支付宝根据您提交的查询指令提供您本人或他人的贷款信息。</li>
+    <li class="ft-bold ">若借款人并非您本人的，您确认您的还款行为是出于您的真实意愿表示。</li>
+
+    <li class="ft-bold ">（五）如果借款人是您本人的，您同意在当期贷款的最后还款日之前登陆支付宝账户主动偿还应还金额，逾期未偿还的，您授权支付宝从您的支付余额中扣取应还款项至对应的国家开发银行省分行收款的支付宝账户中。</li>
+    <li class="ft-bold ">（六）无论借款人是您本人，还是他人，您使用本服务进行助学贷款还款的资金渠道，包括但不限于支付宝账户余额、借记卡网银及借记卡快捷支付等，但不包含信用卡渠道。</li>
+    <li class="ft-bold ">（七）您保证在使用本服务的行为合法、有效，未侵犯任何第三方合法权益；否则因此导致的所有责任与风险均由您与第三方自行承担并解决。同时您在对使用本服务过程中发出指令的真实性及有效性承担全部责任；您承诺，支付宝依照您的指令进行操作的一切风险由您承担。</li>
+    <li class="ft-bold ">（八）您理解并同意，除了遵守本协议约定的外，您同时必须按照支付宝页面公布的其他“助学贷款还款”服务规则进行操作；您同时确认，您的继续使用行为均表示对该等规则的认可。否则因此导致的责任须由您自行承担相关的后果。</li>
+
+    <li>（九）您在使用支付宝提供的本项服务时，必须同时遵守支付宝网站不时公布的《支付宝服务协议》及相关附属规则，否则因此导致责任，均由您自行承担。</li>
+    <li>（十）您应遵守本服务的相关使用规则及要求，具体以支付宝不时在页面提示的使用规则及限制为准。</li>
+    <li>（十一）您对支付宝<span class="ft-red">“助学贷款还款”服务</span>如有疑问、建议或意见时，可拨打支付宝客服电话0571-88156688或登录支付宝网站进行咨询和投诉。</li>
+  </ul>
+
+  <h3>第三条 支付宝的权利、义务</h3>
+  <ul>
+    <li>（一）支付宝对您的注册信息负有保密义务，但在必要时支付宝有权将相关信息提供给支付宝的监管机关及合作银行等。</li>
+    <li>（二）支付宝有义务在技术上确保<span class="ft-red">“助学贷款还款”服务</span>的安全、有效、正常运行，保证您的正常使用。</li>
+    <li>（三）支付宝可以在法律法规许可或您授权的范围内使用您的资料和交易记录，您在此确认支付宝有权使用您在使用本服务过程中产生的所有信息。</li>
+    <li class="ft-bold">（四） 您在您的支付宝账户中查询到的当期应还金额，及当期贷款的最后还款日等信息，均是支付宝根据您与国家开发银行之间的约定提供的信息，仅作为您使用本服务的参考，支付宝不对上述信息的真实性及准确性承担任何责任。</li>
+      <li>（五）<span class="ft-bold ft-underline">除本协议另有规定外，支付宝在提前邮件通知您或在网站公告的情况下，可以单方面终止向您提供本服务，并不承担任何赔偿责任。</span>支付宝在终止提供本服务后，若发现您之前存在违法或违反本协议目的的使用行为，给支付宝造成损失的，则支付宝仍可据此要求您承担相应赔偿责任并保留通过司法途径予以解决的权利。 </li>
+    <li>（六）乙方有义务在技术上确保整个网上交易平台的安全、有效、正常运行，保证甲方正常交易活动的顺利进行，并及时向甲方提供查询交易记录、交易资金状态、账户状态等服务。但不承担因通讯、停电故障、黑客攻击、银行问题、不可抗力等非乙方原因所引起交易中断、交易错误引起的责任。</li>
+    <li>（七）乙方对甲方在注册中提供的相关身份资料及在交易中产生的交易记录负有保密义务，但有权利根据法律法规规定向有权查询的法定机构，或为完成交易指令的需要向第三方提供。</li>
+    <li>（八）支付宝负责向您提供<span class="ft-red">助学贷款在线还款服务业务</span>咨询服务，并在支付宝网站公布功能介绍、使用规则等内容。</li>
+
+  </ul>
+
+
+  <h3>第四条 协议修改</h3>
+  <ul>
+    <li>（一）支付宝将有权随时修改本协议的有关条款，一旦相关内容发生变动，支付宝公司将会通过电子邮件或网站公告等方式向您提示修改内容。</li>
+    <li>（二）<span class="ft-bold ft-underline">如果您不同意支付宝对本协议相关条款所做的修改或者支付宝不时公布的《支付宝服务协议》及相关附属规则，您应立即停止使用支付宝提供的本项服务。如果您继续使用支付宝提供的服务，则视为您接受并认可本协议相关条款的修改及支付宝不时公布的《支付宝服务协议》及相关附属规则。</span></li>
+  </ul>
+
+  
+  <h3>第五条 争议的解决</h3>
+  <p class="ft-bold ft-underline">双方在履行本协议的过程中，如发生争议，应协商解决。协商不成的，任何一方均可向支付宝所在地人民法院提起诉讼。</p>
+  <h3>第六条 协议的解释</h3>
+  <p>本协议的成立、生效、履行和解释，均适用中华人民共和国法律；法律无明文规定的，应适用支付宝公司制定的业务规则和通行的商业惯例。本服务协议未规定部分依照《支付宝服务协议》及相关附属规则予以履行；本协议与《支付宝服务协议》及相关附属规则相冲突的，以本协议为准。</p>
+
+
+
+</div>  
+<!-- CMS:还款协议结束:batchpayprod/studentloan/loanxieyi.vm -->        <div class="ui-form-item  ">
+            <span class="ui-button ui-button-lorange">
+               <input type="button" class="ui-button-text J-licenseAgree" value="已阅读并同意该协议" />
+            </span>
+        </div>
+
+    <!-- /表单许可声明 -->
+    </div>
+</div>
+
+<div class="ui-form-item  button-center">
+    <span class="ui-button ui-button-green" id="J_btnSubmit">
+       <input type="button" class="ui-button-text" value="确认还款" />
+       <input type="submit" class="ui-button-text fn-hide"/>
+    </span><a class="link-modify" href="https://batch.alipay.com:443/loan/repaymentchannel/studentloan/repaymentquery.htm">返回修改</a>
+</div>
+ </fieldset>
+</form>
+
+
+
+
+
+</div><!-- /主栏 -->
+
+ <!--问答-->
+<div id="faq" class="tip-faq">
+    <a class="fn-right J-scroll-to-top" href="#main" >回到顶部</a>
+    <!-- CMS:还贷信息确认_问答开始:batchpayprod/studentloan/infoQA.vm --><h3>使用遇到问题</h3>
+<dl>
+      <dt>我可以给其他人还贷款吗？</dt>
+    <dd>答：可以。任何支付宝会员在还贷时，只需在页面上输入借款人在借款时所指定的支付宝账户、身份证号，先做贷款查询，确认无误后，再进行支付即可进行还贷。</dd>
+        <dt>使用支付宝还贷款有金额和次数限制吗？</dt>
+    <dd>答：支付宝还贷支持余额、网银和借记卡快捷支付三种资金渠道。使用网银会受银行本身的金额限制，使用快捷支付则无金额和次数限制。</dd>
+  
+  
+</dl><!-- CMS:还贷信息确认_问答结束:batchpayprod/studentloan/infoQA.vm -->    <p class="tip-faq-link">
+        <a href="https://batch.alipay.com:443/loan/cdbhelp/index.htm" target="_blank" >更多相关帮助</a>
+    </p>
+    <form method="get" action="https://help.alipay.com/lab/search_new_result.htm" name="faqsearch" target="_blank" id="faqsearch">
+        <div class="com-search">
+            <span><input name="word" id="word" data-explain="请输入您遇到的问题" value="" class="i-text i-text-s i-text-gray" type="text"></span><input name="uisrc" id="uisrc" value="pagefaq" type="hidden"><input class="btn-fixed" value="搜索" seed="faq-search" type="submit"></div>
+    </form>
+</div>
+<!--/问答-->
+
+
+
+
+
+
+
+				</div><!-- .content -->
+			</div><!-- .ui-grid -->
+		</div><!-- .ui-content -->
+		
+				
+
+<!-- /component/footCommon.vm -->
+
+<!-- CMS:全站公共 cms/全站导航/网站改版新旧版切换开始:alipay/nav/versionSwitch.vm -->
+
+
+
+
+
+
+<!-- CMS:全站公共 cms/全站导航/网站改版新旧版切换结束:alipay/nav/versionSwitch.vm -->
+
+
+
+<style>
+.ui-footer {margin-top: 30px; border-top: 1px solid #cccccc; height: 100px; color:#808080;}
+.ui-footer .ui-separator{font-weight: normal;}
+.ui-footer-ctn {border-top: 1px solid #ffffff;padding-top: 15px;text-align: center;}
+.ui-footer-link a {padding: 0 3px 0 2px;}
+.ui-footer-copyright,.ui-footer-phone {padding-top: 10px;}
+.ui-footer-copyright a,.ui-footer-copyright a:hover {color:#808080;}
+.server{color:#fff;}
+</style>
+
+
+<div class="ui-footer fn-clear" coor="footer">
+    
+    <div class="ui-footer-ctn">
+        <!-- CMS:全站公共 cms/foot/links.vm开始:alipay/foot/links.vm --><div class="ui-footer-link">
+      <a href="https://job.alibaba.com/zhaopin/index.htm" target="_blank" seed="foot-1">诚征英才</a>  
+           <em class="ui-separator">|</em>
+       <a seed="foot-2" href="https://ab.alipay.com/i/lianxi.htm" title="联系我们" target="_blank">联系我们</a>
+           <em class="ui-separator">|</em>
+       <a seed="foot-3" href="https://global.alipay.com/" title="International Business" target="_blank">International Business</a>
+      </div><!-- CMS:全站公共 cms/foot/links.vm结束:alipay/foot/links.vm -->
+        <div class="ui-footer-copyright">
+            <!-- CMS:全站公共 cms/foot/copyright.vm开始:alipay/foot/copyright.vm --><style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+</style>
+<div class="copyright">
+      支付宝版权所有 2004-2016 <a href="https://fun.alipay.com/certificate/jyxkz.htm" target="_blank">ICP证：沪B2-20150087</a>
+  </div>
+<div class="server" id="ServerNum">
+  batchpayprod-60-40 &nbsp; 0ad57d921489374748546753914389_0
+</div><!-- CMS:全站公共 cms/foot/copyright.vm结束:alipay/foot/copyright.vm -->        </div>
+    </div>
+</div>
+<!-- /component/footCommon.vm -->
+	</div><!-- .ui-container -->
+	
+
+			<script type="text/javascript" charset="utf-8" src="https://a.alipayobjects.com:443/batchpayprod/??/batchpayprod.studentloan-1.1-src.js"></script>
+
+	
+			<script type="text/javascript" charset="utf-8">
+E.domReady(function () {
+    page.repaymentinfo.init();
+
+    E.connect($("J_btnSubmit"), "click", function (e) {
+
+        var itemArea = $("J_checkAgreeItem");
+        var chkInput = itemArea.query("input")[0];
+        var iptExplain = itemArea.query(".ui-form-explain")[0];
+
+
+        var submitItem = $("J_btnSubmit");
+
+        var btnSubmit = submitItem.query('input[type="submit"]')[0];
+
+        if (chkInput.node.checked != true) {
+
+            itemArea.addClass("ui-form-error");
+            iptExplain.setHtml("请同意支付宝还款协议");
+            e.preventDefault();
+            return false;
+        } else {
+            itemArea.removeClass("ui-form-error");
+            iptExplain.setHtml("");
+
+
+            //disable
+
+
+            btnSubmit.attr("disabled", "disabled");
+
+            submitItem.addClass("ui-button-disable");
+
+            window.location.href = $("paymentForm").attr('action');
+            return false;
+        }
+
+
+    });
+
+    seajs.use(['$'], function($) {
+        $('.button-center .link-modify').on('click', function (e) {
+            e.preventDefault();
+            $('#paymentForm').attr('action', $(this).attr('href')).submit();
+        });
+    });
+});
+</script>
+		
+	 			
+
+		
+		
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                        
+    <!-- FD:174:alipay/foot/cliveService.vm:START --><!-- FD:174:alipay/foot/cliveService.vm:1261:cliveService.schema:在线客服配置:START -->
+    <div style="display:none">onlineServer</div>
+    <script type="text/javascript">
+    try {
+        (function () {
+            var loadOnlineServer = function() {
+                seajs.config({
+                    comboExcludes: /\/u\/(js|css|cschannel|ecmng)\//,
+                    alias: {
+						'$': 'jquery/jquery/1.7.2/jquery',
+                        'onlineServerConfig': 'https://os.alipayobjects.com/rmsportal/iwBOQWtuJpTikoO.js',
+                        'portalServerConfig': 'https://os.alipayobjects.com/cschannel/UmxUAODiwMwqAgTJPhTy.js',
+                        'merchantServerConfig': 'https://os.alipayobjects.com/cschannel/GItTMzaAPsYfUoGvRqVk.js',
+			'koubeiServerConfig': 'https://os.alipayobjects.com/rmsportal/PYruxDHjwNsBuAFGeQvV.js',
+			'defaultDataConfig': 'https://a.alipayobjects.com/u/js/201311/1acIoVU1Xx.js',
+                        'onlineServerJS': 'https://os.alipayobjects.com/rmsportal/LtDohISwSYoXifk.js',//云客服匹配
+                        'onlineServerCSS': 'https://a.alipayobjects.com/u/css/201402/2ACTshL8Vh.css'//云客服通用样式
+                    }
+                });
+                seajs.use(['onlineServerConfig', 'portalServerConfig','merchantServerConfig','koubeiServerConfig'], function(){
+                    jQuery(function(){
+                        window.OS = OS = {},
+                        OS.server = {
+                            cliveServer: 'https://clive.alipay.com',
+                            cschannelServer: 'https://cschannel.alipay.com',
+                            initiativeServer: 'https://webpushgw.alipay.com',
+			    cshallServer: 'https://cshall.alipay.com'
+                        },
+                        OS.params = {
+                            'uid': '2088012817408300'
+                        };
+			var tradeNos4Clive = '' || '';
+			OS.params.featureStr = "{'tradeNos':'" + tradeNos4Clive + "'}";
+                        OS.config = {
+                            onlineServerURL: OS.server.cliveServer + '/csrouter.htm',
+                            portalServerURL: OS.server.cschannelServer + '/csrouter.htm',
+			    newPortalServerURL: OS.server.cschannelServer + '/newPortal.htm',
+                            webpushFlashURL: 'https://t.alipayobjects.com/tfscom/T1JsNfXoxiXXXXXXXX.swf',
+                            onlineServerIconDefault: 'https://a.alipayobjects.com/u/css/201401/1v9cu1dxaf.css' //在线客服默认图片
+                        };
+                        seajs.use('onlineServerCSS');
+                        seajs.use('onlineServerJS');
+                    });
+                });
+            }
+            var bindOnlineServer = function(func){
+                var w = window;
+                if (w.attachEvent) {
+                    w.attachEvent('onload', func);
+                } else {
+                    w.addEventListener('load', func, false);
+                }
+            };
+            window.initOnlineServer = function() {
+                var w = window, o = 'seajs', d = document;
+                if(w[o]) { return loadOnlineServer() }
+                var s = d.createElement("script")
+                s.id = o + "node"
+                s.charset = "utf-8";
+                s.type = "text/javascript";
+                s.src = "https://a.alipayobjects.com/??seajs/seajs/2.1.1/sea.js,jquery/jquery/1.7.2/jquery.js";
+                var head = d.head || d.getElementsByTagName( "head" )[0] || d.documentElement;
+                head.appendChild(s);
+                s.onload = s.onreadystatechange = function(){ if (!s.readyState || /loaded|complete/.test(s.readyState)) { loadOnlineServer() } };
+            };
+            if (!window.isLazyLoadOnlineService) {
+                bindOnlineServer(initOnlineServer);
+            };
+        })();
+    } catch (e) {
+        window.console && console.log && console.log(e);
+        window.Tracker && Tracker.click('onlineServer-error-init-' + e);
+    }
+    </script>
+<!-- FD:174:alipay/foot/cliveService.vm:1261:cliveService.schema:在线客服配置:END -->
+
+<!-- FD:174:alipay/foot/cliveService.vm:END -->
+<!-- CMS:支付宝全站/全站底部/在线客服流量控制开始:alipay/foot/onlineServiceCtr.vm -->
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <!-- CMS:支付宝全站/全站底部/在线客服流量控制结束:alipay/foot/onlineServiceCtr.vm -->	
+		
+ 
+<!-- uitpl:/component/tracker.vm -->
+<!-- FD:106:alipay/tracker/tracker.vm:START --><!-- FD:106:alipay/tracker/tracker.vm:785:tracker.schema:全站自动化/性能/敏感信息打点开关:START -->
+
+
+
+<script type="text/javascript">
+window.Smartracker && Smartracker.sow && Smartracker.sow();
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+window.agp_custom_config = {
+  BASE_URL: '//kcart.alipay.com/p.gif',
+  TIMING_ACTION_URL: '//kcart.alipay.com/x.gif'
+}
+
+</script>
+<script charset="utf-8" src="https://as.alipayobjects.com/g/component/timing/1.0.0/index.js"></script>
+
+
+
+
+
+<!-- FD:106:alipay/tracker/sai.vm:START --><script>
+    sensScanConfig={
+        ratio: 0.01,
+        modules: '*',
+        types: '*'
+      };
+</script>
+
+<script src='https://as.alipayobjects.com/g/alipay_security/monitor-sens/1.0.1/monitor-sens.min.js'></script>
+<!-- FD:106:alipay/tracker/sai.vm:END -->
+
+
+
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:START --><!-- FD:106:alipay/tracker/cmsbuffer.vm:997:cmsbuffer.schema:main-CMS全站修复:START -->
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+<script>
+try {
+  (function() {
+  var logServer = 'https://magentmng.alipay.com/m.gif';
+  var sample = 0.0001;
+  var url = "https://a.alipayobjects.com/http-watch/1.0.7/index.js";
+
+  // 判断比例
+  if (!!window.addEventListener && Array.prototype.map && Math.random() < sample) {
+    var HEAD = document.head || document.getElementsByTagName('head')[0];
+
+    var spt = document.createElement('script');
+    spt.src = url;
+    HEAD.appendChild(spt);
+
+	setTimeout(function() {
+	  window.httpWatch && window.httpWatch({ sample: 1, appname: 'batchpayprod-60-40', logServer: logServer });
+	}, 1000);
+  }
+  })();
+} catch(e) {}
+</script>
+
+
+
+<script src="https://as.alipayobjects.com/component/console-security-message/1.0.1/index.js"></script>
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:997:cmsbuffer.schema:main-CMS全站修复:END -->
+<!-- FD:106:alipay/tracker/cmsbuffer.vm:END --><!-- FD:106:alipay/tracker/tracker.vm:785:tracker.schema:全站自动化/性能/敏感信息打点开关:END -->
+<!-- FD:106:alipay/tracker/tracker.vm:END -->
+        
+ 
+<!-- $limitedUnits -->
+	
+		</body>
+	</html>
+A�f暃      X�!X�!=垁�       X    ~1489374270,:https://batch.alipay.com/loan/repaymentchannel/studentloan/cdbrepayinfo.htm necko:classified 1 strongly-framed 1 security-info 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 request-method POST response-head HTTP/1.1 200 OK
+Server: Tengine/2.1.0
+Date: Mon, 13 Mar 2017 03:12:28 GMT
+Content-Type: text/html;charset=GBK
+Strict-Transport-Security: max-age=31536000
+Content-Language: en-US
+Cache-Control: max-age=0,no-cache
+Expires: Thu, 05 Jan 1995 22:00:00 GMT
+Pragma: no-cache
+ original-response-headers Server: Tengine/2.1.0
+Date: Mon, 13 Mar 2017 03:12:28 GMT
+Content-Type: text/html;charset=GBK
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000
+Content-Language: en-US
+Cache-Control: max-age=0,no-cache
+Expires: Thu, 05 Jan 1995 22:00:00 GMT
+Pragma: no-cache
+Set-Cookie: spanner=dmrbFG8RCyKS2VHoOUsNGxSsiPn9kkfj4EJoL7C0n0A=;path=/;secure;
+ uncompressed-len 0 net-response-time-onstart 478 net-response-time-onstop 511   詖

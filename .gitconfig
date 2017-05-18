@@ -1,0 +1,9 @@
+[user]
+	email = ginny@example.com
+	name = ginny
+[alias]
+	st = status
+	last = log -1
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+	ui = true

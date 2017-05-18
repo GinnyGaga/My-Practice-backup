@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <name>Ubuntu 16.04 Community Wallpapers</name>
+    <filename>/usr/share/backgrounds/contest/xenial.xml</filename>
+    <options>zoom</options>
+  </wallpaper>
+</wallpapers>

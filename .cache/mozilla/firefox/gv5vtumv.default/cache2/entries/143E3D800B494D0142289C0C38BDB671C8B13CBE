@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta content='initial-scale=1.0,width=device-width' name='viewport'><meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,follow">
+
+<title>Home - GNOME Wiki!</title>
+<script type="text/javascript" src="/gnome/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/gnome/gnome/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/gnome/gnome/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/gnome/gnome/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/gnome/gnome/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/gnome/gnome/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="GNOME Wiki! Recent Changes" href="/action/rss_rc/Home?action=rss_rc&amp;unique=1&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/Home">
+<link rel="Alternate" title="Wiki Markup" href="/Home?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/Home?action=print">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+  <div id="container">
+  <div id="header">
+    <!-- global gnome.org domain bar -->
+    <div id="global_domain_bar">
+      <div id="header_tabs">
+        <div id="user_tab" class="tab">
+<ul id="username"><li><span id="pagelocation"><a href="/Home">Home</a></span></li><li class="wikilink"><a href="/RecentChanges"><span>RecentChanges</span></a></li><li class="wikilink"><a href="/Schedule"><span>Schedule</span></a></li><li><a href="/action/login/Home?action=login" id="login" rel="nofollow">Login</a></li></ul>
+
+        </div>
+        <div id="site_tab" class="tab">
+          <a class="root" href="https://www.gnome.org/">GNOME.org</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end site header -->
+  <div id="main_content">
+
+
+<div class="body" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Welcome_to_the_GNOME_Wiki.21">Welcome to the GNOME Wiki!</a><ol><li>
+<a href="#Contributing_to_GNOME">Contributing to GNOME</a></li><li>
+<a href="#Development_Resources">Development Resources</a></li><li>
+<a href="#Some_Interesting_Things">Some Interesting Things</a></li><li>
+<a href="#Translation_to_other_languages">Translation to other languages</a></li></ol></li></ol></div> <span class="anchor" id="line-2"></span>
+<h1 id="Welcome_to_the_GNOME_Wiki.21">Welcome to the GNOME Wiki!</h1>
+<span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line874">This is GNOME's development and community organization space. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line862">To learn how to use the wiki, see the <a href="/Guidelines">guidelines</a>. <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><ul><li><p class="line891"><strong><a href="/Apps">Applications</a></strong> - homepages for GNOME applications. <span class="anchor" id="line-9"></span></li><li><p class="line891"><strong><a href="/Projects">Projects</a></strong> - pages for GNOME components and software projects. <span class="anchor" id="line-10"></span></li><li><p class="line891"><strong><a href="/Teams">Teams &amp; Activities</a></strong> - team pages and areas. <span class="anchor" id="line-11"></span></li><li><p class="line891"><strong><a href="/Events">Events</a></strong> - pages for conferences and hackfests. <span class="anchor" id="line-12"></span></li><li><p class="line891"><strong><a href="/Initiatives">Initiatives</a></strong> - GNOME-wide software initiatives. <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span></li></ul><p class="line867">
+<h2 id="Contributing_to_GNOME">Contributing to GNOME</h2>
+<span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><p class="line874">Want to help make GNOME awesome? We have plenty of advice and information for you. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><ul><li><p class="line891"><a href="/Community">Community</a> - page of how you can contribute to GNOME or get in touch with our community. <span class="anchor" id="line-19"></span></li><li><p class="line891"><a href="/Newcomers">Newcomers</a> - an introduction to GNOME development. <span class="anchor" id="line-20"></span></li><li><p class="line891"><a href="/Outreach">Outreach</a> - outreach efforts: Outreachy and Google Summer of Code. <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span></li></ul><p class="line867">
+<h2 id="Development_Resources">Development Resources</h2>
+<span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line874">Main development sites: <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span><ul><li><p class="line891"><a class="https" href="https://bugzilla.gnome.org/">bugzilla.gnome.org</a> - issue tracking system. <span class="anchor" id="line-27"></span></li><li><p class="line891"><a class="http" href="http://git.gnome.org/browse/">git.gnome.org</a> - code repositories. <span class="anchor" id="line-28"></span></li><li><p class="line891"><a class="http" href="http://developer.gnome.org/">developer.gnome.org</a> - tutorials &amp; API reference documentation. <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span></li></ul><p class="line874">Other useful resources: <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><ul><li><p class="line891"><a href="/ReleasePlanning">Release Schedule &amp; Planning</a> - organization space for the next GNOME release. <span class="anchor" id="line-33"></span></li><li><p class="line891"><a href="/Git/Developers">Git version control guide</a> - instructions on using Git for GNOME development. <span class="anchor" id="line-34"></span></li><li><p class="line891"><a href="/Projects/Jhbuild">JHBuild</a> - the GNOME build tool. <span class="anchor" id="line-35"></span></li><li><p class="line891"><a href="/MaintainersCorner">Maintainer's Corner</a> - useful information for module maintainers. <span class="anchor" id="line-36"></span></li><li><p class="line891"><a href="/Hardware">Hardware</a> - tracking page for hardware that can be lent to the community for development and testing. <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span></li></ul><p class="line867">
+<h2 id="Some_Interesting_Things">Some Interesting Things</h2>
+<span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><ul><li><p class="line862">GNOMEs love to eat. They've even written a <a href="/GnomeCookbook">cookbook</a>. <span class="anchor" id="line-41"></span></li><li><p class="line891"><a href="/Gnome3CheatSheet">Tips and tricks for GNOME 3 users</a> <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span></li></ul><p class="line867">
+<h2 id="Translation_to_other_languages">Translation to other languages</h2>
+<span class="anchor" id="line-44"></span><ul><li><p class="line891"><a href="/Home/LocalizedPages">Full list of languages</a>. <span class="anchor" id="line-45"></span></li></ul><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">Home  (last edited 2016-07-17 15:13:44 by <span title="SÃ©bastienWilmet @ 197.232-183-91.adsl-static.isp.belgacom.be[91.183.232.197]"><a href="/S%C3%A9bastienWilmet" title="SÃ©bastienWilmet @ 197.232-183-91.adsl-static.isp.belgacom.be[91.183.232.197]">SÃ©bastienWilmet</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+
+  <!-- end of main content -->
+  </div>
+  <!-- site footer -->
+  <div id="footer">
+    <!-- footer image -->
+    <div id="footer_image">
+      &nbsp;
+    </div>
+    <!-- footer grass -->
+    <div id="footer_grass">
+      &nbsp;
+    </div>
+    <div id="footer_container">
+      <div id="footer_content">
+
+
+        <div id="search">
+
+<form id="searchform" method="get" action="/Home">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+
+        </div>
+        <div id="copyright">
+        Copyright &copy; 2005 - <span id="current-year"></span> <a href="https://www.gnome.org/">The GNOME Project</a>.
+        Hosted by <a href="http://www.redhat.com/">Red Hat</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of footer -->
+
+  <script type="text/javascript">document.getElementById('current-year').innerHTML = new Date().getFullYear();</script>
+  </div>
+  <!-- End of container --></body>
+</html>
+
+ê‰QÝÎ           XÆ=ˆ„^           :https://wiki.gnome.org/Home strongly-framed 1 security-info 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 request-method GET request-Cookie gGrCs0NkWIT3IZnXc2z7GkZ6o7c= request-User-Agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 response-head HTTP/1.1 200 OK
+Date: Mon, 13 Mar 2017 03:33:23 GMT
+Server: Apache/2.2.15 (Red Hat)
+Vary: Cookie,User-Agent
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Mon, 13 Mar 2017 03:33:23 GMT
+Server: Apache/2.2.15 (Red Hat)
+Vary: Cookie,User-Agent
+Content-Type: text/html; charset=utf-8
+Set-Cookie: MOIN_SESSION_80_ROOT=1ab7309692ca979cff1f5e1e1c94806c8eed7059; expires=Mon, 13-Mar-2017 05:33:00 GMT; Max-Age=7200; Path=/
+Connection: close
+Transfer-Encoding: chunked
+ uncompressed-len 0 predictor::resource-count 9 predictor::https://wiki.gnome.org/gnome/common/js/common.js 1,1,0,4096 predictor::https://wiki.gnome.org/gnome/gnome/css/common.css 1,1,0,4096 predictor::https://wiki.gnome.org/gnome/gnome/css/screen.css 1,1,0,4096 predictor::https://wiki.gnome.org/gnome/gnome/css/print.css 1,1,0,4096 predictor::https://wiki.gnome.org/gnome/gnome/css/projection.css 1,1,0,4096 net-response-time-onstart 755 net-response-time-onstop 1151 predictor::https://static.gnome.org/wiki.gnome.org/gnome/css/layout.css 1,1,0,4096 predictor::https://static.gnome.org/wiki.gnome.org/gnome/css/style.css 1,1,0,4096 predictor::https://fonts.googleapis.com/css?family=Cantarell 1,1,0,4096 predictor::https://static.gnome.org/wiki.gnome.org/gnome/css/screen.css 1,1,0,4096   '

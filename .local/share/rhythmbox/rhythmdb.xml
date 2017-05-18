@@ -1,0 +1,494 @@
+<?xml version="1.0" standalone="yes"?>
+<rhythmdb version="2.0">
+  <entry type="iradio">
+    <title>WSUM 91.7 FM (University of Wisconsin)</title>
+    <genre>College Radio</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://vu.wsum.wisc.edu/wsumlive.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>WKNC 88.1 FM (NC State) (High Quality)</title>
+    <genre>Music</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://wknc.sma.ncsu.edu:8000/wknchq.ogg.m3u</location>
+    <play-count>1</play-count>
+    <last-played>1489376444</last-played>
+    <bitrate>112</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>WKNC 88.1 FM (NC State) (Low Quality)</title>
+    <genre>Music</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://wknc.sma.ncsu.edu:8000/wkncmq.ogg.m3u</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - Dream Factory</title>
+    <genre>Ambient</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/ambient.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>wbur.org - Boston's NPR news source</title>
+    <genre>News</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://audio.wbur.org/stream/live_ogg.m3u</location>
+    <play-count>1</play-count>
+    <last-played>1489376644</last-played>
+    <bitrate>64</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Paradise (High Quality)</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://stream-dc1.radioparadise.com/rp_192m.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>Radio Paradise (Low Quality)</title>
+    <genre>Eclectic</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://stream-dc1.radioparadise.com/rp_96m.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - Tronic Lounge</title>
+    <genre>House</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/tronic.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>KWUR 90.3 FM St. Louis Underground Radio</title>
+    <genre>Unknown</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://www.kwur.com/icecast/kwurogg.m3u</location>
+    <play-count>2</play-count>
+    <last-played>1489376517</last-played>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>StartFM - 94.2MHz, Vilnius University, Lithuania</title>
+    <genre>Underground</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://eteris.startfm.lt/startfm.ogg</location>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="iradio">
+    <title>HBR1.com - I.D.M. Tranceponder</title>
+    <genre>Trance</genre>
+    <artist></artist>
+    <album></album>
+    <location>http://ubuntu.hbr1.com:19800/trance.ogg</location>
+    <play-count>1</play-count>
+    <last-played>1489376423</last-played>
+    <bitrate>64</bitrate>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/passwd.sort</location>
+    <mtime>1486871147</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/babydog/cal2038</location>
+    <mtime>1481942443</mtime>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/emp.data</location>
+    <mtime>1482051104</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/boydog/cal3009</location>
+    <mtime>1481585191</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/test.sort</location>
+    <mtime>1482054078</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/news</location>
+    <mtime>1481949885</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/wolf/delete_disable</location>
+    <mtime>1482056377</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/test.sorted</location>
+    <mtime>1482054870</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/unixsq1.sq1</location>
+    <mtime>1482048647</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/winsql.sql</location>
+    <mtime>1482048480</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/output_errs2</location>
+    <mtime>1482047616</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/wolf/passwd.cut</location>
+    <mtime>1482056959</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/lists</location>
+    <mtime>1481949400</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/babydog/lists</location>
+    <mtime>1481942380</mtime>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/wolf/passwd.sort</location>
+    <mtime>1482056959</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/configbackup</location>
+    <mtime>1489240767</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/dept.data.unix</location>
+    <mtime>1482050039</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/aliedit.tar.gz</location>
+    <mtime>1489374187</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/output2.std</location>
+    <mtime>1482047113</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/passwd.cut1</location>
+    <mtime>1486871333</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/babydog/cal2009</location>
+    <mtime>1481942443</mtime>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/errors.std</location>
+    <mtime>1482047211</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/name.txt</location>
+    <mtime>1482052935</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/lists200</location>
+    <mtime>1481946043</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/babydog/cal3009</location>
+    <mtime>1481942443</mtime>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/output.std</location>
+    <mtime>1482046889</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/boydog/cal2009</location>
+    <mtime>1481585191</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/output</location>
+    <mtime>1482047365</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/output_errs</location>
+    <mtime>1482047490</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/dog_wolf</location>
+    <mtime>1482046449</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/passwd.cut</location>
+    <mtime>1486871147</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/dept.data</location>
+    <mtime>1482049749</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/dog_wolf2</location>
+    <mtime>1482046488</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/aliedit(1).tar.gz</location>
+    <mtime>1489374286</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+  <entry type="ignore">
+    <title></title>
+    <genre></genre>
+    <artist></artist>
+    <album></album>
+    <location>file:///home/dog/errors</location>
+    <mtime>1482047365</mtime>
+    <last-seen>1489376357</last-seen>
+    <date>0</date>
+    <media-type>application/octet-stream</media-type>
+  </entry>
+</rhythmdb>

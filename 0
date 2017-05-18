@@ -1,0 +1,3 @@
+awk 'BEGIN {IGNORECASE=1 match(i
+nput,/certificate/);gsub(/certificate/,"lisence");print $0}' input
+:

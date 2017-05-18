@@ -1,0 +1,8 @@
+/etc/cron.daily/passwd
+find: ‘/etc/cups/ssl’: Permission denied
+find: ‘/etc/chatscripts’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+/etc/passwd
+find: ‘/etc/ppp/peers’: Permission denied
+/etc/pam.d/passwd
+find: ‘/etc/ssl/private’: Permission denied
