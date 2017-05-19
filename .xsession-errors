@@ -1,11 +1,7 @@
 openConnection: connect: No such file or directory
 cannot connect to brltty at :0
-upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (1709) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (1710) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (1711) terminated with status 1
-upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (1712) terminated with status 1
-upstart: update-notifier-crash (/var/crash/_usr_sbin_semanage.0.crash) main process (1713) terminated with status 1
-upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (9679) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (9689) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (9700) terminated with status 1
-upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (9712) terminated with status 1
+upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (1960) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (1962) terminated with status 1
+upstart: update-notifier-crash (/var/crash/_usr_sbin_semanage.0.crash) main process (1964) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (1961) terminated with status 1
+upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (1963) terminated with status 1

@@ -1,149 +1,3 @@
-tr -c "[a-z][A-Z]" "@" <student
-tr -c "[a-z][A-Z]" "@\n" <student
-tr -c "[a-z][A-Z]" "@" <student
-tr -c "[a-z][A-Z]" "@"  <student 
-tr -c "[a-z][A-Z]" "@" "[\012*]" <student
-tr -c "[a-z][A-Z]" "@[\012*]" <student
-tr -c "[a-z][A-Z]"  <student
-tr -c "[a-z][A-Z]" <student
-tr -c "[a-z][A-Z]" "a" <student
-tr -c "[a-z][A-Z]" "@" <student
-tr -c "[a-z][A-Z]" "@" ''<student
-tr -c "[a-z][A-Z]" "@" "[\012*]" <student
-tr -c "[a-z][A-Z]" "@" | "[\012*]" <student
-ll
-ll | tar -cf all
-tr -c "[a-z][A-Z]" "@" "[\012*]" <student:
-tar -cf all /home/dog
-ll
-tar -cf all /home/dog
-tar -cf all /home
-ll
-tar -cf all /home
-ll
-tar -cf all x*
-tar -tf all x*
-tar -tf all
-ls -l all
-gzip all
-ls *.gz
-ls -l all.gz
-ls -l x*
-ls -l all
-tar -zxvf all.gz
-ls -l all
-clear
-variable=33
-variable1=33
-echo $variable1
-echo ${variable1}
-variable
-echo ${variable1}
-variable1=33
-echo ${variable1}
-variable2="hello world"
-echo ${variable2}
-variable4="we are saying $varialbe2"
-variable4
-variable4="we are saying $variabble2"
-variable4
-variable4="we are saying $variable2"
-variable4
-variable2
-variable2="hello world"
-$variable2
-echo $variable2
-echo $variable4
-unset variable4
-echo variable4
-echo $variable4
-echo $HOME
-echo $UID
-exit
-git
-sudo apt-get install git
-git
-ll
-ls -l
-ls 
-mkdir learngit
-cd learngit
-pwd
-git init
-ls
-cd ..
-ls
-ls learn*
-ls -l learn*
-ls -a
-cd learngit
-ls
-ls -l
-ll
-ls -ah
-vi readme.txt
-ls
-git add readme.txt
-git commit -m "wrote a readme file"
-pwd
-git commit -m "wrote a readme file"
-mail
-git commit -m "wrote a readme file"
-git config --global user.email "ginny@example.com"
-git config --global user.name "ginny"
-git commit -m "wrote a readme file"
-ls
-vi readme.txt
-git status
-git diff readme.txt
-git add readme.txt
-git status
-git commit -m "add distributed"
-git status
-ls
-vi readme.txt
-git readme.txt
-git add readme.txt
-git commit -m "append GPL"
-git log
-git log --pretty=oneline
-git reset --hard HEAD^
-cat readme.txt
-git log
-git reset --hard 9dc5990
-cat readme.txt
-git reflog
-ll
-vi .git
-cat .git
-tail -n .git
-ll
-vi readme.txt
-cd ..
-mkdir LICENSE
-LL
-ll
-rm LICENSE
-rm -r LICENSE
-ls -l LICENSE
-cd learngit
-vi LICENSE
-git status
-git log
-git relog
-git reflog
-git add readme.txt
-git add LICENSE
-git status
-git commit -m "understand how stage works"
-git status
-vi readme.txt
-git add readme.txt
-git status
-vi readme.txt
-git commit -m "git tracks changes"
-git status
-git diff HEAD -- readme.txt
 git status
 cat readme.txt
 vi readme.txt
@@ -1998,3 +1852,149 @@ cat copied-3.txt -  copied-4.txt
 cat  copied-4.txt
 man cat
 python
+ifconfig
+cd PY-2
+ls
+vim ex15.py
+python ex15.py
+
+ifconfig
+vim ex15.py
+ls
+python ex15.py ex15_sample.txt
+vim ex15.py
+ifconfig
+vim ex15.py
+ls
+python ex15.py ex15_sample.txt
+vim ex15.py 
+python ex15.py ex15_sample.txt
+vim ex15.py 
+python ex15.py ex15_sample.txt
+vim ex15.py 
+pydoc file
+ifconfig
+vim ex15.py 
+ls
+python
+vim ex15.py 
+python
+ls
+python
+vim ex15.py 
+python ex15.py ex15_sample.txt
+python
+pydoc close
+python
+ifconfig
+ls
+vim ex15.py
+vim ex16.py
+cat test.txt
+vim ex16-1.py
+vim ex15.py
+vim ex16-1.py
+python ex16-1.py test.txt
+vim ex16-2.py
+pyhon ex16-2.py test.txt
+python ex16-2.py test.txt
+vim ex16-2.py
+vim ex16.py
+phthon ex16.py test.txt
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+cat test.txt
+vim ex16.py
+cat test.txt
+python ex16.py test.txt
+vim test.txt
+vim ex16.py
+python ex16.py test.txt
+vim test.txt
+vim ex16.py
+python ex16.py test.txt
+vim test.txt
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+vim ex16.py
+python ex16.py test.txt
+ifconfig
+ls
+python ex16.py test.txt
+python ex18.py copied.txt
+python ex17.py copied.txt
+python ex17.py test.txt  copied.txt
+cat copied.txt
+cat test.txt
+python ex16.py test.txt
+cat test.txt
+vim ex16.py 
+python ex16.py test.txt
+cat test.txt
+python ex17.py test.txt copied.txt
+cat copied.txt
+import
+python
+ifconfig
+ls
+vim ex19.py
+vim ex19-1.py
+python ex19-1.py
+vim ex15.py
+
+vim ex15.py
+cd ..
+ls
+git init
+ifconfig
+init 0
+clear
+date
+cd PY-2
+lS
+ls
+vim ex18.py
+python ex18.py
+vim ex18.py
+cat ex18.py
+python ex18.py
+vim ex19.py
+python ex18.py
+python ex19.py
+vim ex19.py
+python ex19.py
+ls
+cat ex17.py
+vim ex17.py
+vim ex16.py
+vim ex15.py
+vim ex20.py
+python ex20.py test.txt
+cd ..
+git init
+git add .
+git commit -m 'My practice'
+git remote add origin git@github.com:GinnyGaga/My-Practice-backup.git
+git push -u origin master

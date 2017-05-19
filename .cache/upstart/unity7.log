@@ -1,9 +1,0 @@
-ERROR 2017-05-16 22:49:52 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 09:04:27 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 11:41:01 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 12:37:03 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 12:37:49 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 13:37:48 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 13:42:48 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 22:53:33 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.
-ERROR 2017-05-18 22:55:13 unity.settings UnitySettings.cpp:293 Invalid monitor index: -1. Returning index 0 monitor instead.

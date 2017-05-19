@@ -1,22 +1,30 @@
 openConnection: connect: No such file or directory
 cannot connect to brltty at :0
-upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (2640) terminated with status 1
-upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (2643) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (2641) terminated with status 1
-upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (2642) terminated with status 1
-upstart: upstart-dbus-session-bridge main process (2661) terminated with status 1
-upstart: bamfdaemon main process (2711) killed by TERM signal
-upstart: unity-settings-daemon main process (2751) killed by HUP signal
-upstart: unity-panel-service main process (2764) killed by HUP signal
-upstart: indicator-bluetooth main process (2798) killed by TERM signal
-upstart: indicator-power main process (2799) killed by TERM signal
-upstart: indicator-datetime main process (2800) killed by TERM signal
-upstart: indicator-printers main process (2812) killed by TERM signal
-upstart: indicator-session main process (2815) killed by TERM signal
-upstart: indicator-application main process (2846) killed by TERM signal
-upstart: indicator-application pre-stop process (5099) killed by TERM signal
-upstart: gnome-session (Unity) pre-stop process (5100) killed by TERM signal
-upstart: gnome-session (Unity) main process (2759) killed by HUP signal
+upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (1709) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (1710) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (1711) terminated with status 1
+upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (1712) terminated with status 1
+upstart: update-notifier-crash (/var/crash/_usr_sbin_semanage.0.crash) main process (1713) terminated with status 1
+upstart: update-notifier-crash (/var/crash/_usr_bin_pycompile.0.crash) main process (9679) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-gi.0.crash) main process (9689) terminated with status 1
+upstart: update-notifier-crash (/var/crash/python-xdg.0.crash) main process (9700) terminated with status 1
+upstart: update-notifier-crash (/var/crash/ibus-pinyin.0.crash) main process (9712) terminated with status 1
+upstart: window-stack-bridge main process (1685) killed by HUP signal
+upstart: unity-settings-daemon main process (1791) killed by HUP signal
+upstart: unity-panel-service main process (1806) killed by HUP signal
+upstart: hud main process (1804) killed by HUP signal
+upstart: indicator-bluetooth main process (1878) killed by TERM signal
+upstart: indicator-power main process (1882) killed by TERM signal
+upstart: indicator-datetime main process (1883) killed by TERM signal
+upstart: indicator-keyboard main process (1885) killed by HUP signal
+upstart: indicator-sound main process (1887) killed by HUP signal
+upstart: indicator-printers main process (1890) killed by TERM signal
+upstart: indicator-session main process (1891) killed by TERM signal
+upstart: indicator-application main process (1934) killed by TERM signal
+upstart: indicator-application pre-stop process (6313) killed by TERM signal
+upstart: gnome-session (Unity) pre-stop process (6314) killed by TERM signal
+upstart: gnome-session (Unity) main process (1800) killed by HUP signal
 upstart: Disconnected from notified D-Bus bus
-upstart: hud main process (2749) killed by HUP signal
+upstart: bamfdaemon main process (1792) killed by TERM signal
 upstart: job unity7 failed to stop
+upstart: job gpg-agent failed to stop
